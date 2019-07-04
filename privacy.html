@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<meta http-equiv=Content-Type content="text/html;charset=UTF-8" />-->
+<meta http-equiv=Cache-Control content=No-Cache><meta http-equiv=Pragma	content=No-Cache />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="bounce,friends,jumprope,jump,rope,arcade" />
+<meta name="description" content="GIMLE GAMES" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<!--<meta name="viewport" content="width=device-width,initial-scale=0.8,maximum-scale=0.8, user-scalable=no">-->
+<!--<meta name="viewport" content="initial-scale=1, maximum-scale=1"> -->
+
+<!-- 브라우저상단의 아이콘 -->
+<link rel="shortcut icon" href="./images/favicon.png">
+<!-- 폰에서 홈화면에 즐겨찾기를 할때 앱처럼 보이게끔 하는 아이콘 설정 -->
+<link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png" />
+<link rel="icon" type="image/png" href="./images/apple-touch-icon.png" sizes="192x192">
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+<title>Gimle Games</title>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script language=javascript>
+	
+	// store link
+	function link_store(v) {
+		location.href = v;
+		 // if(navigator.userAgent.match(/iPad/i)) 
+	}
+
+	var currentScrollTop = 0;
+	window.onload = function() {
+		$('.container').css('top', "11.8%");
+		alignElements();
+		scrollController();
+
+		$(window).on('scroll', function() {
+			scrollController();
+		});
+
+		$(window).resize(function(){
+			 alignElements();
+		}).resize();
+
+		$( window ).on( "orientationchange", function( event ) {
+			alignElements();
+		});
+	}
+		 
+	function scrollController() {
+		//currentScrollTop = $(window).scrollTop();
+	}
+	
+	// align controls
+	function alignElements() {
+		$('.container').css('left', (window.innerWidth-720)/2);
+	}
+
+	function enterframe() {
+		alignElements();
+	}
+	//setInterval(enterframe,100);
+
+	
+
+	$(document).ready(function() {
+		$(document).bind('touchstart', function(e) {
+		});
+
+		$(document).bind('touchmove', function(e) {
+		});
+
+		$(document).bind('touchend', function(e) {
+			//alignElements();
+		});
+	});
+
+
+</script>
+<style>
+
+
+img {
+     max-width: 100%;
+}
+
+
+.container {
+    /*border: 1px solid #48BAE4; */
+	position:absolute; 
+	width:720px;
+	height:auto;
+	/*left:50%;*/
+	top:5000px; 
+	/*margin-left:-320px;
+	margin-right:320px;*/
+	text-align:center
+}
+
+.containerCompany {
+    /*border: 1px solid #48BAE4; */
+	background-color: #576982;
+	width:600px;
+	height:600px;
+	display: inline-block;
+}
+
+.containerGame {
+    /*border: 1px solid #48BAE4; */
+	background-color: #576982;
+	width:600px;
+	height:1200px;
+	display: inline-block;
+}
+
+
+
+
+.textArea1 {
+	/*border: 1px solid #48BAE4; */
+	width:560px; 
+	display: inline-block;
+	
+}
+.textArea2 {
+	/*border: 1px solid #48BAE4; */
+	width:500px; 
+	display: inline-block;
+
+}
+
+
+
+.txtStyle1 { 
+	font-family: 'Roboto', Arial; 
+	font-weight: 400; 
+	font-size: 16pt;
+	letter-spacing:0px;
+	line-height:120%;
+	color:#303232
+}
+
+.txtStyle2 { 
+	font-family: 'Roboto', Arial; 
+	font-weight: 400; 
+	font-size: 14pt;
+	letter-spacing:0px;
+	line-height:120%;
+	color:#303232
+}
+
+
+
+</style>
+</head>
+
+
+<body style="overflow-x:hidden; overflow-y:auto;" bgcolor="#354254" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+	<div class="container">
+
+		<div class="containerGame" style="margin-top:0px">
+			<!-- logo -->
+			<div style="float:left;margin-top:20px;margin-left:20px">
+				<a href="index.html" alt="www.gimlegames.com" title="www.gimlegames.com">
+					<img src="./images/logo1.png">
+				</a>
+			</div>
+			
+			<div class="textArea1" style="text-align:left;margin-top:5px">
+				<h1 class="txtStyle1" style="color:#ffffff">
+					<strong>GIMLE GAMES Privacy Policy</strong>
+				</h1>
+
+				<h1 class="txtStyle2" style="color:#ffffff">
+					<p>
+					This Privacy Policy, part of our overall Terms of Service, describes how and when GIMLE GAMES collects, uses and shares your information when you use our Service. We will ask for your consent before collecting or using information for a purpose other than those that are set out in this Privacy Policy.
+					</p>
+
+					<!--<p>
+					<strong>Third Party Advertising</strong>
+					</p>
+					
+					<p>
+					If you click on any advertisements through Our game, the advertisers may use cookies and other web-tracking technologies to collect data. Some of this may be personal information, and some of it non-personal information. We recommend that you review the terms of use and privacy policy for any advertiser with whom you are interacting before doing so.
+					</p>
+
+					<p>
+					The list of our ad networks privacy policies may be found here:
+					</p>
+
+					<p>
+						Chartboost : 
+						<a href="https://answers.chartboost.com/en-us/articles/200780269" style="color:#7adbff;text-decoration:none">
+						https://answers.chartboost.com/en-us/articles/200780269</a>
+					</p>-->
+					
+					<p>
+					<strong>Information we share</strong>
+					</p>
+
+					<p>
+					We do not share or disclose your private personal information unless necessary to comply with a law, regulation or legal request.
+					</p>
+
+					<p>
+					<strong>Information security</strong>
+					</p>
+
+					<p>
+					We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.
+					</p>
+
+					<p>
+					<strong>Complaints</strong>
+					</p>
+
+					<p>
+					You can lodge a complaint with us about any breach of our Privacy Policy at the address below. When you contact GIMLE GAMES, we may keep a record of your communication to help solve any issues you might be facing. We may use your email address to inform you about our services, such as letting you know about upcoming changes or improvements.
+					</p>
+
+					<p>
+					<strong>Privacy Policy Contact Information</strong>
+					</p>
+
+					<p>If you have any questions about our Privacy Policy, </p>
+
+					<p>please contact us at : 
+					<a href="mailto:contact@gimlegames.com" style="color:#7adbff;text-decoration:none">contact@gimlegames.com</a>
+					</p>
+
+					<p>@ Privacy policy last updated July 2019</p>
+					
+					
+				</h1>
+			</div>
+		</div>
+
+		<div class="textArea2" style="margin-top:20px">
+			<h1 class="txtStyle1" style="color:#FFFFFF">COPYRIGHT (C) 2018 Gimle Games. All Rights Reserved.</h1>
+		</div>
+
+
+		<div style="width:100px;height:100px">
+		</div>
+
+
+	</div>
+</body>
+</html>
